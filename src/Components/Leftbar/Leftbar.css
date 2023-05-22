@@ -1,0 +1,30 @@
+.leftbarContainer{
+    flex:3;
+    height: calc(100vh - 50px);
+}
+
+.leftbarListContainer{
+   margin-left: 10%;
+   margin-top: 10% ;
+   margin-right: 10%;
+   border-radius: 20px;
+    background-color: rgb(223, 241, 255);
+}
+
+.leftbarList{
+    padding-top:50px;
+    padding-bottom:50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.leftbarCarry{
+    margin-left: 5px;
+}
+.leftbarListItems{
+    display: flex;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 25px ;
+}
